@@ -1,3 +1,4 @@
+import Khodro.Khodro;
 import Khodro.Motor;
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +8,7 @@ public class MotorTest {
     @Test
     void barresi_tavanaei_harakat_motor() {
         // Given
-        Motor click = new Motor();
+        Khodro click = new Motor("click");
         // When
         click.RoshanKardan();
         // Then

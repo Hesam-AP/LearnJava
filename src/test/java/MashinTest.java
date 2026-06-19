@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 public class MashinTest {
     @Test
     void barassi_tavanaei_harakat_mashin() {
-        Mashin pride = new Mashin("Pride");
-        Mashin benz = new Mashin("Benz");
+        Mashin pride = new Mashin("Pride", 120, "Automatic");
+        Mashin benz = new Mashin("Benz", 120, "Automatic");
 
         pride.RoshanKardan();
         pride.BazKardanDar();
